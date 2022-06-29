@@ -11,8 +11,17 @@ function changeNavBg () {
 
 window.addEventListener('scroll' , changeNavBg)
 
-let user = document.getElementById('user')
+let images = document.querySelectorAll(".map .review img");
+let actualReviews = document.querySelectorAll(".map .review .actualreview");
+const imagesArr = Array.from(images);
+const actualReviewsArr = Array.from(actualReviews);
 
-user.addEventListener("click" , () => {
-  document.getElementById("review").style.visibility = "visible"
+imagesArr.forEach((ele) => {
+    ele.addEventListener("click", () => {
+        console.log(actualReviewsArr);
+        actualReviewsArr.forEach((el)=> {
+            el.style.opacity = '0';
+        });
+        ele.nextElementSibling.style.opacity = '1';
+    })
 })
