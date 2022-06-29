@@ -2,9 +2,9 @@ function changeNavBg () {
   var navbar = document.getElementById("navbar")
   var scrollVal = window.scrollY
   if(scrollVal > 145){
-    navbar.classList.add('bg-first')
+    navbar.classList.add('bg-scroll')
   }else {
-    navbar.classList.remove('bg-first')
+    navbar.classList.remove('bg-scroll')
   }
 }
 

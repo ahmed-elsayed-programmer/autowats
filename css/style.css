@@ -12,6 +12,10 @@ body {
   background: linear-gradient(99.58deg, #233155 12.58%, #39224D 64.36%);
 }
 
+.bg-scroll {
+  background: rgb(43, 67, 202);
+}
+
 .heading {
   font-size: 36px;
   font-weight: 600;
@@ -35,6 +39,10 @@ ul .nav-item svg{
 
 ul .nav-item button {
   padding: 5px 19px ;
+}
+
+ul .nav-item:hover a {
+  color: #23D4CE;
 }
 
 
@@ -98,13 +106,45 @@ ul .nav-item button {
 
 /* testimonials */
 
-.reviews {
-  height: 80vh;
-  background-image: url('../images/bg-world.png');
-  background-size: contain;
+.map {
+  height: 657px;
+
 }
 
 
-.review {
-  visibility: hidden;
+@media (max-width: 1400px) {
+  .map {
+      overflow-y: hidden;
+      overflow-x: scroll;
+  }
+}
+
+.review1{
+  left: 170px;
+  top: 120px;
+}
+
+.review2 {
+  left: 800px;
+  top: 120px;
+}
+
+.review3 {
+  left: 580px;
+  top: 260px;
+}
+
+.review4 {
+  left: 1000px;
+  top: 250px;
+}
+
+.review5 {
+  left: 260px;
+  top: 380px;
+}
+
+.review6 {
+  left: 1100px;
+  top: 465px;
 }
