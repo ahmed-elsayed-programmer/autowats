@@ -1,0 +1,110 @@
+
+body {
+  color: #fff;
+}
+
+/* Genral */
+.bg-main {
+  background-color: #23D4CE;
+}
+
+.bg-first {
+  background: linear-gradient(99.58deg, #233155 12.58%, #39224D 64.36%);
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.line-heading {
+  border-bottom: 3px solid #23D4CE;
+}
+
+
+/* Navbar styles */
+ul .nav-item a{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+ul .nav-item svg{
+  color: #23D4CE;
+}
+
+ul .nav-item button {
+  padding: 5px 19px ;
+}
+
+
+/* hreo styles */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 120px 0 60px 0;
+  margin-bottom: 50px;
+}
+
+
+.hero h1 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero h1 span {
+  color:#23D4CE  ;
+}
+
+.hero p {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+
+
+/* our features styles */
+.features {
+  color: #000;
+  background-color: #F7F7F7;
+}
+
+.box {
+  background-color: #fff;
+ box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box h2 {
+  font-size: 24px;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+.box:hover {
+  background-color:  rgba(80, 217, 215, 0.2) ;
+}
+
+/* testimonials */
+
+.reviews {
+  height: 80vh;
+  background-image: url('../images/bg-world.png');
+  background-size: contain;
+}
+
+
+.review {
+  visibility: hidden;
+}
